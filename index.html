@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Tezo Employee details</title>
+</head>
+<body>
+
+    <!-- sidebar section -->
+
+    <div class="sidebar">
+        <div class="logo">
+            <img class="tezo-logo" src="Images/tezologo.png" alt="tezo company logo" />
+            <img class="handle-icon" src="Images/handle.png" alt="closure of sidebar icon" />
+        </div>
+        <div class="section">
+            <span class="title">ALL</span>
+            <div class="all-content">
+                <div class="all-content-info">
+                    <img src="Images/lock.png" alt="lock symbol" />
+                    <span>Dashboard</span>
+                </div>
+                <div class="all-content-arrow">
+                    <img class="right-arrow" src="Images/right.png" alt="right pointing arrow" />
+                </div>
+            </div>
+            <div class="all-content">
+                <div class="all-content-info">
+                    <img src="Images/lock.png" alt="lock symbol" />
+                    <span>Roles</span>
+                </div>
+                <div class="all-content-arrow">
+                    <img class="right-arrow" src="Images/right.png" alt="right pointing arrow" />
+                </div>
+            </div>
+            <div class="all-content-box">
+                <div class="all-content-box-info">
+                    <img src="Images/home.png" alt="home symbol" />
+                    <span>Employees</span>
+                </div>
+                <div class="all-content-box-arrow">
+                    <img class="right-arrow-box" src="Images/down.png" alt="down pointing arrow" />
+                </div>
+            </div>
+            <div class="all-list">
+                <li>
+                    <div class="all-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>All</span>
+                    </div>               
+                </li>
+                <li>
+                    <div class="all-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>Active</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="all-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>In Active</span>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <div class="section">
+            <span class="title">DEPARTMENTS</span>
+            <div class="department-list">
+                <li>
+                    <div class="department-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>IT</span>
+                    </div>
+                    <div class="count">
+                        <span>3</span> 
+                    </div>              
+                </li>
+                <li>
+                    <div class="department-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>UI/UX</span>
+                    </div>
+                    <div class="count">
+                        <span>3</span> 
+                    </div>                
+                </li>
+                <li>
+                    <div class="department-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>PE</span>
+                    </div>
+                    <div class="count">
+                        <span>3</span> 
+                    </div>           
+                </li>
+                <li>
+                    <div class="department-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>Human Resources</span>
+                    </div>
+                    <div class="count">
+                        <span>3</span> 
+                    </div>               
+                </li>
+                <li>
+                    <div class="department-content">
+                        <img src="Images/circle.png" alt="radio button" />
+                        <span>Sales</span>
+                    </div>
+                    <div class="count">
+                        <span>3</span> 
+                    </div>               
+                </li>
+            </div>
+        </div>
+
+        <div class="section">
+            <span class="title">ROLE / USER MANAGEMENT</span>
+            <div class="all-content">
+                <div class="all-content-info">
+                    <img src="Images/lock.png" alt="lock symbol" />
+                    <span>Roles</span>
+                </div>
+                <div class="all-content-arrow">
+                    <img class="right-arrow" src="Images/right.png" alt="right pointing arrow" />
+                </div>
+            </div>
+            <div class="all-content">
+                <div class="all-content-info">
+                    <img src="Images/lock.png" alt="lock symbol" />
+                    <span>Assign User Roles</span>
+                </div>
+                <div class="all-content-arrow">
+                    <img class="right-arrow" src="Images/right.png" alt="right pointing arrow" />
+                </div>
+            </div>
+        </div>
+
+        <div class="update">
+            <div class="update-info">
+                <span>Install new update 2.3.1A</span>
+                <p>Allow to launch the new update for the AD application</p>
+            </div>
+            <div class="update-buttons">
+                <button class="dismiss">Dismiss</button>
+                <button class="accept">Accept</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-body">
+        <!-- search header -->
+
+        <header>
+            <div class="main-header">
+                <div class="header-icon-search">
+                    <div class="search-icon">
+                        <img src="Images/search.png" alt="search icon" />
+                    </div>
+                    <div class="search-content">
+                        <input type="text" name="name" placeholder="Search (Ctrl+l)">
+                    </div>
+                </div>
+                
+                <div class="header-right">
+                    <div class="header-section-icons">
+                        <button><img src = "Images/language.png" alt="language change option" /></button>
+                        <button><img src = "Images/more.png" alt="more icon with four dots" /></button>
+                        <button><img src = "Images/theme.png" alt="theme change symbol, a moon" /></button>
+                        <button><img src = "Images/bell.png" alt="notification icon" /></button>
+                    </div>
+                    <div class="profile">
+                        <img src="Images/profile.png" alt="Profile picture" />
+                        <div class="profile-info">
+                            <span>John Abraham</span>
+                            <span class="admin">Admin</span>
+                        </div>
+                        <img class="down-arrow" src="Images/downward.png" alt="down arrow symbol"/>
+                    </div>
+                </div>
+            </div>
+        </header>         
+
+        <!-- Employee details section -->
+        <div id="empInfo" class="employees-section">
+            <div class="employee-header">
+                <div class="employee-header-content">
+                    <span class="employee-title">Employees</span>
+                    <p>Find all of your company's employee accounts and their associayed roles.</p>
+                </div>
+                <div class="employee-header-btn">
+                    <button class="btn-export">
+                        <img src="Images/maskedicon.png" alt="icon for exporing the data" />
+                        <span>EXPORT</span>
+                    </button>
+                    <button class="btn-add-employee">
+                        <img src="Images/plus-sign.png" alt="icon for exporing the data" />
+                        <span>ADD EMPLOYEE</span>
+                    </button>
+                </div>
+            </div>
+            <div class="btn-alphabet">
+                <div class="alpha-image">
+                    <img src="Images/Vector.png" alt="filter symbol" />
+                </div>
+                <div class="alphabet-content">
+                    <button>A</button>
+                    <button>B</button>
+                    <button>C</button>
+                    <button>D</button>
+                    <button>E</button>
+                    <button>F</button>
+                    <button>G</button>
+                    <button>H</button>
+                    <button>I</button>
+                    <button>J</button>
+                    <button>K</button>
+                    <button>L</button>
+                    <button>M</button>
+                    <button>N</button>
+                    <button>O</button>
+                    <button>P</button>
+                    <button>Q</button>
+                    <button>R</button>
+                    <button>S</button>
+                    <button>T</button>
+                    <button>U</button>
+                    <button>V</button>
+                    <button>W</button>
+                    <button>X</button>
+                    <button>Y</button>
+                    <button>Z</button>
+                </div>
+            </div>
+            <div class="employee-info">
+                <div class="delete">
+                    <div class="delete-btn">
+                        <img src="Images/leftdownarrow.png" alt="left down arrow icon" />
+                        <button>Delete</button>
+                    </div>
+                    <div class="add-icon">
+                        <img src="Images/tableadd.png" alt="add table row icon" />
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <th>
+                            <input type="checkbox">
+                        </th>
+                        <th>
+                            <span>USER</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <span>LOCATION</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <span>DEPARTMENT</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <span>ROLE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <span>EMP NO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <span>STATUS</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <span>JOIN DT</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 -960 960 960" width="24"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                        </th>
+                        <th>
+                            <img class="three-dots" src="Images/moredots.png" alt="three dots image" />
+                        </th>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/manprofile.png" alt="profile of a man" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/girlprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/womenprofile.png" alt="profile of a man" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/empprofile.png" alt="profile of a man" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/boyprofile.png" alt="profile of a man" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/girlprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/manprofile.png" alt="profile of a girl">
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/partyprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/womenprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/boyprofile.png" alt="profile of a boy" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/girlprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/empprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots"></td>
+                    </tr>
+
+                    <tr class="table-data">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <img src="Images/partyprofile.png" alt="profile of a girl" />
+                            <div class="user-info">
+                                <span class="user-name">Edgar Jones</span>
+                                <span class="mail-id">edgar@tezo.com</span>
+                            </div>
+                            
+                        </td>
+                        <td>Hyderabad</td>
+                        <td>Product Engg</td>
+                        <td>Full-stack Developer</td>
+                        <td>TZ002341</td>
+                        <td><button>Active</button></td>
+                        <td>12/03/2023</td>
+                        <td><img class="three-dots" src="Images/moredots.png" alt="three horizontal dots" /></td>
+                    </tr>
+                    
+                </table>
+
+                    
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+    
+    <script>
+        function openSidebar(){
+            const op=document.querySelector(".sidebar");
+            const sd=document.querySelector(".side-menuicon");
+            document.getElementById("empSideBar").style.width="25%";
+            document.getElementById("searchbar").style.marginLeft = "25%";
+            document.getElementById("empInfo").style.marginLeft="25%"
+            sd.style.display="none";
+            op.style.display="flex";
+        }
+        function closeSidebar(){
+            const sd=document.querySelector(".side-menuicon");
+            document.getElementById("empSideBar").style.width="0";
+            document.getElementById("searchbar").style.marginLeft = "0";
+            document.getElementById("empInfo").style.marginLeft="0";
+            sd.style.display="block";
+        }
+    </script>
+</body>
+</html>
